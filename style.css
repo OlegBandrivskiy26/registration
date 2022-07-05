@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrap{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: pink;
+    position: absolute;
+    z-index: 2;
+}
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 18%;
+    height: 35%;
+    background-color: palevioletred;
+    border-radius: 20px;
+}
+.inpt_grp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.grp_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+input{
+    width: 220px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: pink;
+    border: none;
+    color: palevioletred;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+input::placeholder{
+    padding-left: 0;
+    color: palevioletred;
+}
+.enter{
+    width: 160px;
+    height: 40px;
+    background-color: pink;
+    color: palevioletred;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+.register{
+    color: pink;
+    text-decoration: underline;
+    margin-top: 10px;
+
+}
+.loader{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: pink;
+}
+.elips{
+    background-image: url(../loading.gif);
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+}

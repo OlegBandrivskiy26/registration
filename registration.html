@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="../registration.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrap">
+        <div class="form">
+            <div class="inpt_grp">
+                <input type="text" id="newLogin" placeholder="Login">
+                <input type="text" id="newPassword" placeholder="Password">
+                <input type="text" id="repidPassword" placeholder="Confirm Password">
+            </div>
+            <div class="grp_btn">
+                <button class="enter" id="register">Register</button>
+                <a href="../index.html" class="register">Enter</a>
+            </div>
+        </div>
+    </div>
+    <div class="pop_up" id="popUp">
+        <h1>Реєстрація пройшла успішно</h1>
+        <a href="../index.html" class="pop_up_enter">Вхід</a>
+    </div>
+    <div class="pop_up" id="popUp2">
+        <h1>Не вірно введений логін або пароль</h1>
+        <a href="#" class="pop_up_return">Повернутися</a>
+    </div>
+    <script src="../script.js"></script>
+</body>
+</html>
