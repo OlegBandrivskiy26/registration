@@ -76,7 +76,7 @@ input::placeholder{
     background-color: pink;
 }
 .elips{
-    background-image: url(../loading.gif);
+    background-image: url(./loading.gif);
     background-size: cover;
     width: 150px;
     height: 150px;
